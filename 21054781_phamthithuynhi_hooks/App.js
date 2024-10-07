@@ -14,6 +14,8 @@ import TestuseEffect_V2 from "./useEffect_V2";
 import TestuseEffect_Data from "./useEffect_Data";
 import TestuseEffect_Tick from "./useEffect_Tick";
 import TestReducer from "./useReducer";
+import TestUseMemo from "./useMemo";
+import TestUseCallBack from "./useCallBack";
 export default function App() {
   return (
     //  <CounterApp />
@@ -24,6 +26,8 @@ export default function App() {
     // <TestuseEffect_V2 />
     // <TestuseEffect_Data />
     // <TestuseEffect_Tick />
-    <TestReducer />
+    // <TestReducer />
+    // <TestUseMemo />
+    <TestUseCallBack />
   );
 }
